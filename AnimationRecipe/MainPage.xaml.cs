@@ -12,7 +12,4 @@ public partial class MainPage : ContentPage
         base.OnAppearing();
         await TextLabel.FadeTo(1, 1000);
     }
-
 }
-
-
